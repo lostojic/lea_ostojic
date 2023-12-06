@@ -1,0 +1,32 @@
+html {
+    font-size: 12px;
+}
+
+h3 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body {
+    background-color: rgb(10, 102, 102);
+}
+
+
+h1 {
+    color: #00A9FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* oznaka klase */
+.paragraf1 {
+      color: blue;
+      /*veličine: px, %, rem */
+      font-size: 30px;
+
+}
+
+/*oznaka ID*/
+#paragraf2 {
+    color: brown;
+    
+}
