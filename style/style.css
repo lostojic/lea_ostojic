@@ -1,0 +1,63 @@
+.paragraf1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #37474F;
+}
+.paragraf2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:#37474F;
+    inline 
+}
+.paragraf3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #546E7A;
+}
+.paragraf4 {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 20px;
+    color: #78909C;
+}
+#glavno {
+    background-color: #ECEFF1;
+}
+.prva {
+    list-style-type: circle;
+}
+.druga {
+    list-style-type: circle;
+}
+.treća {
+    list-style-type: circle;
+}
+.četvrta {
+    list-style-type: square;
+}
+.peta {
+    list-style-type: square;
+}
+.šesta {
+    list-style-type: square;
+}
+.sedma {
+    list-style-type: square;
+}
+.osma {
+    list-style-type: square;
+}
+.deveta {
+    list-style-type: georgian;
+}
+.deseta {
+    list-style-type: georgian;
+}
+.jedanaesta {
+    list-style-type: decimal;
+}
+.dvanaesta {
+    list-style-type: decimal;
+}
+.highlight {
+    color: #FFC107;
+}
