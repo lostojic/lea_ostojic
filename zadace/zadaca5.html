@@ -2,10 +2,183 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="autor" content="magdalena kovacevic">
+    <meta name="opis" content="recepti">
+    <title>Recepti</title>
+    <style>
+        h1 {
+            color: green;
+            font-size: 40px;
+            font-style: oblique;
+            text-align: center;
+        }
+        body {
+            background-color: lightblue;
+        }
+        .paragraf {
+            font-family: Arial, Helvetica, sans-serif ;
+            color: red;
+            font-weight: bold;
+        }
+        h4 {
+            font-weight: bolder;
+            color: darkblue;
+            font-size: 30px;
+        }
+        .lista {
+        list-style: square;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-color: lightgreen;
+        font-weight: bold;
+        }
+        h2 {
+            color: blue;
+            font-style: italic;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .lista1 {
+            font-size: 20px;
+            font-weight: bolder;
+            color: crimson;
+            list-style-type: square;
+        }
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 35px;
+            font-weight: 800;
+            color: darkred;
+            background-color: rgb(225, 241, 197);
+        }
+        .container {
+            display: grid;
+            gap: 10px;
+        }
+        .one {
+            grid-column: span 12;
+            grid-row: span 5;
+            background-color: grey;
+           
+        }
+        .two {
+            grid-column: span 8;
+            grid-row: span 7;
+            background-color: grey;
+           
+        }
+        .three {
+            grid-column: span 4;
+            grid-row: span 7;
+            background-color: grey;
+           
+        }
+        
+        @media (max-width: 480px) {
+            .one {
+                grid-row: span 12;
+                grid-column: span 12;
+            }
+            .two {
+                grid-row: span 12;
+                grid-column: span 12;
+            }
+            .three {
+                grid-row: span 12;
+                grid-column: span 12;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>zadaća 5</h1>
+    <h1>Božićni recepti</h1>
+    <p class="paragraf">
+    Na stranici se nalazi nekoliko recepata prikladnih za Božićne blagdane.
+    </p>
+     <h2>Slana jela</h2>
+    <ul class="lista1">
+        <li>Sarma</li>
+        <li>Krumpir salata</li>
+    </ul>
+    <h2>Kolači</h2>
+    <ul class="lista1">
+        <li>Čupavci</li>
+        <li>Muffini</li>
+    </ul>
+    <h3>Sarma</h3>
+    <h4>Sastojci</h4>
+    <ul class="lista">
+        <li>2kg mješanog mljevenog mesa</li>
+        <li>Kiseli kupus</li>
+        <li>Začini</li>
+        <li>Suho meso</li>
+    </ul>
+    <h4>Priprema</h4>
+    <p class="paragraf"> Mješano mljeveno meso začinite i ostavite da malo odstoji. Operite kupus i motajte sarmu. Stavite da se kuha i na vrh poredajte suho meso. Kuha se nekoliko sati. Provjerite je li kupus kuhan (je li tvrd). Ako nije, gotovo je.
+    </p>
+    <img src="slike 2/sarma.jpg" alt="slika sarme" width="300" height="200">
+    <h3>Krumpir salata</h3>
+    <h4>Sastojci</h4>
+    <ul class="lista">
+        <li>Krumpir</li>
+        <li>Ulje</li>
+        <li>Luk</li>
+        <li>sol, papar</li>
+    </ul>
+    <h4>Priprema</h4>
+    <p class="paragraf"> Skuhajte krumpir i ostavite da se ohladi. Nasijecite ga na tanke polutke. Začinite i poslužite.
+    </p>
+    <img src="slike 2/sala.jpg" alt="slika salate" width="300" height="200">
+    <h3>Čupavci</h3>
+    <h4>Sastojci za biskvit</h4>
+    <ul class="lista">
+        <li>3 jaja</li>
+        <li>220g šećera</li>
+        <li>180ml ulja</li>
+        <li>300g glatkog brašna</li>
+        <li>120ml mlijeka</li>
+        <li>prašak za pecivo</li>
+        <li>2 žlice kokosa u prahu</li>
+    </ul>
+    <h4>Sastojci za čokoladni preljev</h4>
+    <ul class="lista">
+        <li>150g čokolade</li>
+        <li>200ml mlijeka</li>
+        <li>150g maslaca</li>
+        <li>200g kokosa</li>
+    </ul>
+    <h4>Priprema</h4>
+   <p class="paragraf">
+    Izmiksati sastojke za biskvit te ispeći biskvit. Peče se na 120 stupnjeva otprilike 30min. 
+    Ohlađeni biskvit nasjeći na kockice i umeljati u čokoladni preljev.
+   </p>
+   <img src="slike 2/cup.jpg" alt="slika čupavaca" width="300" height="200">
+   <br>
+   <h3>Muffini</h3>
+   <h4>Sastojci</h4>
+   <ul class="lista">
+    <li>1.5 šalica šećera</li>
+    <li>4 jaja</li>
+    <li>1 šalica mlijeka</li>
+    <li>1 šalica ulja</li>
+    <li>prašak za pecivo (1)</li>
+    <li>2.5 šalice brašna</li>
+    <li>kakao, voće, čokolada</li>
+   </ul>
+   <h4>Priprema</h4>
+   <p class="paragraf">
+    Pećnicu upalite na 200C i ostavite da se grije.
+    U kalup za muffine složite košarice.
+    Pjenasto izmiksajte 4 jaja, postepeno im dodavajte 1.5 šalicu šećera, pa zatim 1 šalicu radenske ili mlijeka, pa 1 šalicu ulja. Zatim postepeno dodajte 2.5 šalice mekog brašna i 1 prašak za pecivo. Cijelo vrijeme miksajte. Kada se sve lijepo spoji stanite. Na kraju svih ovih osnovnih sastojaka možete umiksati mak, rogač, kakao, čokoladu...
+    Košarice punite do 3/4 i stavite ih peći u zagrijanu pećnicu oko 15-18 minuta.
+    Ako mislite voće stavljati u muffine najbolje da to napravite prije samog pečenja, kada izlijete smjesu za muffine u košarice, u svaki posebno ubacite i voće.
+    To je to, na čisti biskvit možete dodavati razne kreme, pudinge, voće, slatko vrhnje za šlag i slično.
+   </p>
+   <img src="slike 2/muf.jpg" alt="muffini" width="300" height="400">
+   <div class="container">
+    <div class="one">A</div>
+    <div class="two">B</div>
+    <div class="three">C</div>
+   </div>
 </body>
 </html>
